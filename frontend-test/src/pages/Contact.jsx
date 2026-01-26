@@ -1,16 +1,19 @@
 import React from 'react';
+import Navbar from '../components/Layout/navbar';
+import CTA from '../components/Landing/CTA';
+import Footer from '../components/Layout/footer';
 
-const About = () => {
+const Contact = () => {
     return (
-        <div className="about-page">
-            <h1>Contact</h1>
-            <p>At MyApp, we are a foward progressing company and value the effort of our employees and clients.
-               If you have any questions or want to apply for a position here, please leave us a message and apply for the 
-               position via the careers page in the button below.
+        <div className="contact-page">
+            <Navbar />
+            <h1>Contact Us</h1>
+            <p>
+                <CTA />
             </p>
-            
-            
-            
+            <Footer />
         </div>
     )
 }
+
+export default Contact;

@@ -38,12 +38,22 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink
-                        to="/link"
+                        to="/about"
                         className={({ isActive }) =>
                           `nav-link ${isActive ? "fw-bold text-decoration-underline" : ""}`
                         }
                       >
                         About
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/contact"
+                        className={({ isActive }) =>
+                          `nav-link ${isActive ? "fw-bold text-decoration-underline" : ""}`
+                        }
+                      >
+                        Contact
                       </NavLink>
                     </li>
                     <li className="nav-item dropdown">

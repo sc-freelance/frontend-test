@@ -1,11 +1,19 @@
 import React from 'react';
-import './Layout_CSS/Home.css';
+import Navbar from '../components/Layout/navbar';
+import Hero from '../components/Landing/Hero';
+import Features from '../components/Landing/Features';
+import CTA from '../components/Landing/CTA';
+import Footer from '../components/Layout/footer';
 
 const Home = () => {
     return (
         <div className="home-page">
-            <h1>Welcome to MyApp</h1>
-            <p>Your gateway to awesome projects and collaborations.</p>
+            <Navbar />
+            <Hero />
+            <Features />
+            <Footer />
         </div>
-    )
-}
+    );
+};
+
+export default Home;
