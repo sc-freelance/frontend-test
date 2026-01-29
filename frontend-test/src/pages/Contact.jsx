@@ -9,6 +9,7 @@ const Contact = () => {
             <Navbar />
             <h1>Contact Us</h1>
             <p>
+                
                 <CTA />
             </p>
             <Footer />

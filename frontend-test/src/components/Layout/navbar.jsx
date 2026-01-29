@@ -66,15 +66,15 @@ const Navbar = () => {
                        >
                         Projects
                       </a>
-                      <ul className="dropdown-menu">
+                      <ul className="projects-dropdown dropdown-menu">
                          <li>
-                          <NavLink className="dropdown-item" to="/action">
-                              Action
+                          <NavLink className="dropdown-item" to="/web-development-page">
+                              Web Development
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink className="dropdown-item" to="/another-action">
-                              Another action
+                          <NavLink className="dropdown-item" to="/machine-learning-page">
+                              Machine Learning
                           </NavLink>
                         </li>
                         <li><hr className="dropdown-divider" /></li>

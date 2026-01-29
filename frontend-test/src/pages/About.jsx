@@ -23,6 +23,21 @@ const About = () => {
             name: 'Node.js',
             level: 'Intermediate',
             image: 'https://via.placeholder.com/100'
+        },
+        {
+            name: 'Python',
+            level: 'Intermediate',
+            image: 'https://via.placeholder.com/100'
+        },
+        {
+            name: 'Django',
+            level: 'Beginner',
+            image: 'https://via.placeholder.com/100'
+        },
+        {
+            name: 'React Native',
+            level: 'Intermediate',
+            image: 'https://via.placeholder.com/100'
         }
     ]
     return (
@@ -48,7 +63,7 @@ const About = () => {
                 contribute to innovative projects that leverage technology to solve real-world problems and improve people's lives.
 
             </p>
-            <h2>Skills</h2>
+            <h2>Skills and Technologies achieved</h2>
             <div className="skills d-flex flex-wrap">
                 {skills.map((skill, index) => (
                     <div key={index} className="skill-card text-center m-3 p-3 border rounded" style={{ width: '150px' }}>

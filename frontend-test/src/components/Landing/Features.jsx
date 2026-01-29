@@ -3,18 +3,18 @@ import React from 'react';
 const Features = () => {
     const features = [
         {
-            title: 'Collaborate',
-            description: 'Work together with teams from around the world on innovative projects.',
+            title: 'Collaboration',
+            description: 'Worked alongside with professional teams from around the world on innovative, creative projects.',
             icon: '🤝'
         },
         {
-            title: 'Innovate',
-            description: 'Access cutting-edge tools and resources to bring your ideas to life.',
+            title: 'Innovation',
+            description: 'I bring fresh ideas and creative recommendations to every project I participate in.',
             icon: '💡'
         },
         {
-            title: 'Grow',
-            description: 'Learn new skills and expand your network in a supportive community.',
+            title: 'Growth',
+            description: 'I have a proven track record of continuous learning and professional development with my projects.',
             icon: '📈'
         }
     ];
